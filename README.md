@@ -114,7 +114,7 @@ You can specify the parameters listed in the `eval.py` file by flagging them or 
 ### Use a pre-trained SSD network for detection
 
 #### Download a pre-trained network
-- We are trying to provide PyTorch `state_dicts` (dict of weight tensors) of the latest SSD model definitions trained on different datasets.  
+- We tried to provide PyTorch `state_dicts` (dict of weight tensors) of the latest SSD model definitions trained on different datasets.  
 - Currently, we provide the following PyTorch models:
     * SSD300 trained on VOC0712 (newest PyTorch weights)
       - https://s3.amazonaws.com/amdegroot-models/ssd300_mAP_77.43_v2.pth
